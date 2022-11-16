@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="task_qhv_kln_nvb" path="陈卓雨/screnn-control-1.html"/>
+   <appContext helpID="task_sbr_cqn_nvb" path="陈卓雨/screen-control2.html"/>
+   <appContext helpID="screen_control_3" path="陈卓雨/screen_control_3.html"/>
+   <appContext helpID="switch_on_the_projctor" path="陈卓雨/switch_on_the_projctor.html"/>
+   <appContext helpID="switch_off_the_project" path="陈卓雨/switch_off_the_project.html"/>
+   <appContext helpID="screen_no_reaction" path="陈卓雨/screen_no_reaction.html"/>
+   <appContext helpID="screen_remote" path="陈卓雨/screen_remote.html"/>
+   <appContext helpID="remote_no_reaction" path="陈卓雨/remote_no_reaction.html"/>
+   <appContext helpID="button_no_reaction" path="陈卓雨/button_no_reaction.html"/>
+   <appContext helpID="remote_control" path="陈卓雨/remote_control.html"/>
+   <appContext helpID="_01_" path="骆琳/01Connect_to_VideoSource.html"/>
+   <appContext helpID="_02" path="骆琳/02VideoAndSoundplay_ConnectionViaHDMI.html"/>
+   <appContext helpID="_" path="骆琳/03VideoAndSoundplay_ConnectionViaUSB.html"/>
+   <appContext helpID="_" path="骆琳/04Connect_to_iPadiPhone.html"/>
+   <appContext helpID="_05_USB_" path="骆琳/05Coonect_to_USBAppliance.html"/>
+   <appContext helpID="concept_epf_xjz_mvb" path="骆琳/Buttons_on_the_Projector.html"/>
+   <appContext helpID="reference_ajg_dv1_nvb"
+               path="骆琳/Inference_of_IndicatorLight.html"/>
+   <appContext helpID="connection_no_reaction" path="陈卓雨/connection_no_reaction.html"/>
+   <appContext helpID="what_is_vga" path="陈卓雨/what_is_vga.html"/>
+   <appContext helpID="what_is_hdmi" path="陈卓雨/what_is_hdmi.html"/>
+   <appContext helpID="what_is_usb" path="陈卓雨/what_is_usb.html"/>
+   <appContext helpID="task_oxy_v3g_nvb" path="郑宁宁/.html"/>
+   <appContext helpID="angle" path="郑宁宁/angle.html"/>
+   <appContext helpID="image_size" path="郑宁宁/image_size.html"/>
+   <appContext helpID="trapezoid" path="郑宁宁/trapezoid.html"/>
+   <appContext helpID="trouble_etk_btc_nvb" path="blurryimage.html"/>
+   <appContext helpID="topic_h34_fwc_nvb" path="focusingrod.html"/>
+   <appContext helpID="topic_q4s_ybd_nvb" path="cleaninglens.html"/>
+   <appContext helpID="topic_d4b_jbd_nvb" path="imagemenu.html"/>
+   <appContext helpID="trouble_nr5_4cd_nvb" path="incompleteimage.html"/>
+   <appContext helpID="trouble_fr5_c2d_nvb" path="remotecontrolnoreaction.html"/>
+   <appContext helpID="topic_icn_gfd_nvb" path="remotecontrol.html"/>
+   <appContext helpID="trouble_spp_xfd_nvb" path="Soundproblems.html"/>
+   <appContext helpID="topic_xvd_gbb_nvb" path="骆琳/TechnicalHelp_Information.html"/>
+</map>

@@ -1,39 +1,550 @@
-<!DOCTYPE html SYSTEM "about:legacy-compat">
-<!--
-    
-Oxygen WebHelp Plugin
-Copyright (c) 1998-2017 Syncro Soft SRL, Romania.  All rights reserved.
 
--->
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="zh-cn" lang="zh-cn">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>WebHelp</title>
-			<meta http-equiv="REFRESH" content="0; url=../"/>
-    </head>
-    <body>            
-            Current generated project :            
-            <!-- to be generated  -->
-<div id="productInfo" style="display:none;">
-	<span id="oxy_productid">${webhelp.product.id}</span>
-	<span id="oxy_productVersion">${webhelp.product.version}</span>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="wh-path2root" content="index.html" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script>
+            /**
+             * If an old URL is given, redirect to the corresponding topic from the WebHelp Responsive
+             */
+            var actualLocation = window.location.href;
+            var newLocation;
+            if (actualLocation.indexOf('/#')!=-1) {
+                newLocation = actualLocation.replace(/\/#/g, "/");
+                window.location.replace(newLocation);
+            }
+            if (actualLocation.match(/\/index\.(.*)#/gi)!=null) {
+                newLocation = actualLocation.replace(/\/index\.(.*)#/gi, "/");
+                window.location.replace(newLocation);
+            }
+            
+            function debug(msg, object){
+                console.log(msg, object);
+            }
+            function executeQuery(){
+                $('#searchForm').submit();
+                return true;
+            }
+        </script>
+        
+	    <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_responsive_topic.css?buildId=2017042020" />
+        
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/bootstrap/css/bootstrap.min.css" />
+        
+        <!-- Bootstrap Optional theme -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/bootstrap/css/bootstrap-theme.min.css" />
+        
+        <link rel="stylesheet" href="oxygen-webhelp/resources/js/jquery-ui.min.css" />
+        
+        <!-- Changes and comments, as side-notes  -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/p-side-notes.css?buildId=2017042020" />
+        
+        <!-- Template default styles  -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/resources/css/wt_default.css?buildId=2017042020" />
+
+        
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/localization/strings.js?buildId=2017042020"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/localization.js?buildId=2017042020"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/parseuri.js?buildId=2017042020"></script>
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"></script>
+        
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.min.js"><!----></script>
+        
+        <script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"></script>
+        <!-- Skin resources -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/variants/tiles/sky/skin.css?buildId=2017042020" />
+        <!-- EXM-36950 - Expand the args.hdf parameter here -->
+        
+        
+    <title>A Specific Projector Operation Manual Aimed for Middle-aged Female Professors</title></head>
+    <body class="wh_main_page">
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+<nav class="navbar navbar-default wh_header">
+    <div class="container">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="index.html" class=" wh_logo hidden-xs "></a>
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">A Specific Projector Operation Manual Aimed for Middle-aged Female Professors</span></a></div>
+                    
+                </div>
+                <button type="button" data-target=".wh_top_menu_and_indexterms_link" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse">
+                
+                <div class=" wh_top_menu "><ul><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/screnn-control-1.html" data-id="task_qhv_kln_nvb">降下幕布</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/screen-control2.html" data-id="task_sbr_cqn_nvb">升起幕布</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/screen_control_3.html" data-id="screen_control_3">暂停幕布</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/switch_on_the_projctor.html" data-id="switch_on_the_projctor">打开投影仪</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/switch_off_the_project.html" data-id="switch_off_the_project">断开投影仪</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/screen_no_reaction.html" data-id="screen_no_reaction">幕布没有反应</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/screen_remote.html" data-id="screen_remote">幕布遥控器介绍</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/remote_no_reaction.html" data-id="remote_no_reaction">使用投影仪遥控器无反应</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/button_no_reaction.html" data-id="button_no_reaction">投影仪机身按键开机无反应</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/remote_control.html" data-id="remote_control">投影仪遥控器介绍</a></span></li><li><span class="topicref"><a href="%E9%AA%86%E7%90%B3/01Connect_to_VideoSource.html" data-id="_01_">连接到投影仪视频源</a></span></li><li><span class="topicref"><a href="%E9%AA%86%E7%90%B3/02VideoAndSoundplay_ConnectionViaHDMI.html" data-id="_02">连接到计算机处理HDMI 视频和音频</a></span></li><li><span class="topicref"><a href="%E9%AA%86%E7%90%B3/03VideoAndSoundplay_ConnectionViaUSB.html" data-id="_">连接到计算机处理USB 视频和音频</a></span></li><li><span class="topicref"><a href="%E9%AA%86%E7%90%B3/04Connect_to_iPadiPhone.html" data-id="_">连接iPad/iPhone</a></span></li><li><span class="topicref"><a href="%E9%AA%86%E7%90%B3/05Coonect_to_USBAppliance.html" data-id="_05_USB_">连接到外部USB 设备</a></span></li><li><span class="topicref"><a href="%E9%AA%86%E7%90%B3/Buttons_on_the_Projector.html" data-id="concept_epf_xjz_mvb">投影仪机身按键介绍</a></span></li><li><span class="topicref"><a href="%E9%AA%86%E7%90%B3/Inference_of_IndicatorLight.html" data-id="reference_ajg_dv1_nvb">指示灯参数</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/connection_no_reaction.html" data-id="connection_no_reaction">设备连接投影仪后无反应或显示“无信号”</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/what_is_vga.html" data-id="what_is_vga">VGA简介</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/what_is_hdmi.html" data-id="what_is_hdmi">HDMI简介</a></span></li><li><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/what_is_usb.html" data-id="what_is_usb">USB接口简介</a></span></li><li><span class="topicref"><a href="%E9%83%91%E5%AE%81%E5%AE%81/.html" data-id="task_oxy_v3g_nvb">投影仪的聚焦</a></span></li><li><span class="topicref"><a href="%E9%83%91%E5%AE%81%E5%AE%81/angle.html" data-id="angle">投影仪角度和高度</a></span></li><li><span class="topicref"><a href="%E9%83%91%E5%AE%81%E5%AE%81/image_size.html" data-id="image_size">投影图像大小</a></span></li><li><span class="topicref"><a href="%E9%83%91%E5%AE%81%E5%AE%81/trapezoid.html" data-id="trapezoid">梯形校正</a></span></li><li class=" has-children "><span class="topicref"><a href="blurryimage.html" data-id="trouble_etk_btc_nvb">如何解决图像模糊不清的问题</a></span><ul><li><span class="topicref"><a href="focusingrod.html" data-id="topic_h34_fwc_nvb">使用聚焦杆聚焦图像 </a></span></li><li><span class="topicref"><a href="cleaninglens.html" data-id="topic_q4s_ybd_nvb">清洁镜头</a></span></li><li><span class="topicref"><a href="imagemenu.html" data-id="topic_d4b_jbd_nvb">图像质量设定—图像菜单</a></span></li></ul></li><li><span class="topicref"><a href="incompleteimage.html" data-id="trouble_nr5_4cd_nvb">如何解决图像显示不全的问题</a></span></li><li class=" has-children "><span class="topicref"><a href="remotecontrolnoreaction.html" data-id="trouble_fr5_c2d_nvb">如何解决遥控器操作无反应的问题</a></span><ul><li><span class="topicref"><a href="remotecontrol.html" data-id="topic_icn_gfd_nvb">遥控器正确的使用距离和角度范围</a></span></li></ul></li><li><span class="topicref"><a href="Soundproblems.html" data-id="trouble_spp_xfd_nvb">解决声音问题</a></span></li><li><span class="topicref"><a href="%E9%AA%86%E7%90%B3/TechnicalHelp_Information.html" data-id="topic_xvd_gbb_nvb">技术服务电话及网点</a></span></li></ul></div>
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+        <!-- Search form -->
+        <div class=" wh_search_input navbar-form wh_main_page_search " role="form">
+          
+          <div class="wh_welcome"></div>          
+          <form id="searchForm" method="get" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" /><button type="submit" class="wh_search_button"><span>Search</span></button></div></form>
+          
+        </div>
+        <div class="wh_content_area ">
+            
+            <!-- This is the placeholder for the main page tiles. -->
+            <div class="container wh_content_flex_container">
+                <!-- This is the placeholder for the main page tiles. -->
+                <div class=" wh_tiles "><div class=" wh_tile  " data-id="task_qhv_kln_nvb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/screnn-control-1.html" data-id="task_qhv_kln_nvb">降下幕布</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">利用遥控器将收起的幕布降下。
 </div>
-<!-- /to be generated  -->
-                 
-  	<script type="text/javascript">
-          var pageSearch = window.location.href;
-          var pageWSearch = pageSearch.replace(window.location.search,"");
-          pageWSearch = pageWSearch.replace(window.location.hash,"");
-          var url=pageWSearch.split("/");
-          var newUrl="";
-          for ( var i = 0; i < url.length; i++) {
-          	if (url[i]=='oxygen-webhelp'){
-          		break;
-          	}else{    	    		
-      				newUrl=newUrl+url[i]+"/";
-          	}
-      		}    
-          document.location=newUrl;
-      </script>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="task_sbr_cqn_nvb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/screen-control2.html" data-id="task_sbr_cqn_nvb">升起幕布</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">利用遥控器将降下的幕布升起。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="screen_control_3">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/screen_control_3.html" data-id="screen_control_3">暂停幕布</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">利用遥控器将正在降下或升起的幕布暂停。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="switch_on_the_projctor">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/switch_on_the_projctor.html" data-id="switch_on_the_projctor">打开投影仪</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">开启投影仪。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="switch_off_the_project">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/switch_off_the_project.html" data-id="switch_off_the_project">断开投影仪</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">关闭投影仪。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="screen_no_reaction">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/screen_no_reaction.html" data-id="screen_no_reaction">幕布没有反应</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="screen_remote">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/screen_remote.html" data-id="screen_remote">幕布遥控器介绍</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">介绍幕布遥控器。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="remote_no_reaction">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/remote_no_reaction.html" data-id="remote_no_reaction">使用投影仪遥控器无反应</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="button_no_reaction">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/button_no_reaction.html" data-id="button_no_reaction">投影仪机身按键开机无反应</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="remote_control">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/remote_control.html" data-id="remote_control">投影仪遥控器介绍</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">介绍投影仪的遥控器。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="_01_">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%AA%86%E7%90%B3/01Connect_to_VideoSource.html" data-id="_01_">连接到投影仪视频源</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="_02">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%AA%86%E7%90%B3/02VideoAndSoundplay_ConnectionViaHDMI.html" data-id="_02">连接到计算机处理HDMI 视频和音频</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="_">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%AA%86%E7%90%B3/03VideoAndSoundplay_ConnectionViaUSB.html" data-id="_">连接到计算机处理USB 视频和音频</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="_">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%AA%86%E7%90%B3/04Connect_to_iPadiPhone.html" data-id="_">连接iPad/iPhone</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="_05_USB_">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%AA%86%E7%90%B3/05Coonect_to_USBAppliance.html" data-id="_05_USB_">连接到外部USB 设备</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">请按照以下各章节的说明将外部USB 设备连接到投影机。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="concept_epf_xjz_mvb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%AA%86%E7%90%B3/Buttons_on_the_Projector.html" data-id="concept_epf_xjz_mvb">投影仪机身按键介绍</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">下面章节介绍投影仪部件及其功能。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="reference_ajg_dv1_nvb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%AA%86%E7%90%B3/Inference_of_IndicatorLight.html" data-id="reference_ajg_dv1_nvb">指示灯参数</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">机器面板上设有OPERATION INDICATOR（运转指示器）和LAMP INDICATOR（灯泡指示器）两个指示灯。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="connection_no_reaction">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/connection_no_reaction.html" data-id="connection_no_reaction">设备连接投影仪后无反应或显示“无信号”</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="what_is_vga">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/what_is_vga.html" data-id="what_is_vga">VGA简介</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">简要介绍VGA接口。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="what_is_hdmi">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/what_is_hdmi.html" data-id="what_is_hdmi">HDMI简介</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">简要介绍HDMI接口。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="what_is_usb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%99%88%E5%8D%93%E9%9B%A8/what_is_usb.html" data-id="what_is_usb">USB接口简介</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">简要介绍USB接口。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="task_oxy_v3g_nvb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%83%91%E5%AE%81%E5%AE%81/.html" data-id="task_oxy_v3g_nvb">投影仪的聚焦</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">可使用聚焦杆校正聚焦。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="angle">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%83%91%E5%AE%81%E5%AE%81/angle.html" data-id="angle">投影仪角度和高度</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">若从桌面或其他平面上投影，图像太高或太低时，您可使用投影机的可调撑脚调节图像高度。倾斜角度越大，聚焦越难。安装投影机时使其只需很小角度。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="image_size">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%83%91%E5%AE%81%E5%AE%81/image_size.html" data-id="image_size">投影图像大小</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">可使用投影机菜单调整图像大小。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="trapezoid">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%83%91%E5%AE%81%E5%AE%81/trapezoid.html" data-id="trapezoid">梯形校正</a></span></div>
+
+                                
+                                <div class=" wh_tile_shortdesc ">可校正呈不规则矩形的图像的形状。要分别校正水平或垂直方向的失真，请使用遥控器上的梯形图标按钮。
+</div>
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="trouble_etk_btc_nvb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="blurryimage.html" data-id="trouble_etk_btc_nvb">如何解决图像模糊不清的问题</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="trouble_nr5_4cd_nvb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="incompleteimage.html" data-id="trouble_nr5_4cd_nvb">如何解决图像显示不全的问题</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="trouble_fr5_c2d_nvb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="remotecontrolnoreaction.html" data-id="trouble_fr5_c2d_nvb">如何解决遥控器操作无反应的问题</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="trouble_spp_xfd_nvb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="Soundproblems.html" data-id="trouble_spp_xfd_nvb">解决声音问题</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div><div class=" wh_tile  " data-id="topic_xvd_gbb_nvb">
+                        <div>
+                            
+                            
+
+                            <div class="wh_tile_text">
+                                
+                                <div class=" wh_tile_title "><span class="topicref"><a href="%E9%AA%86%E7%90%B3/TechnicalHelp_Information.html" data-id="topic_xvd_gbb_nvb">技术服务电话及网点</a></span></div>
+
+                                
+                                
+                            </div>
+                        </div>
+                    </div></div>
+                <!--
+                    This is the placeholder for the main page entries
+                    presented in a tree-like fashion.
+                -->
+                
+                
+            </div>
+        </div>
+        <nav class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank"> &lt;oXygen/&gt; XML WebHelp </a>
+  </div>
+</nav>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="oxygen-webhelp/resources/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="oxygen-webhelp/template/resources/js/wt_default.js?buildId=2017042020" type="text/javascript"></script>
+        
+        
+        
+        <!-- Search autocomplete -->
+        <script type="text/javascript" src="oxygen-webhelp/search/keywords.js?uniqueId=20221116051831"><!----></script>        
+        <script type="text/javascript" src="oxygen-webhelp/search/searchAutocomplete.js?buildId=2017042020"><!----></script>
+        <script type="text/javascript" src="oxygen-webhelp/search/searchHistoryItems.js?buildId=2017042020"><!----></script>
+        <script type="text/javascript" src="oxygen-webhelp/search/searchOptions.js?uniqueId=20221116051831"><!----></script>
     </body>
 </html>

@@ -11,7 +11,9 @@
    <appContext helpID="button_no_reaction" path="陈卓雨/button_no_reaction.html"/>
    <appContext helpID="remote_control" path="陈卓雨/remote_control.html"/>
    <appContext helpID="_01_" path="骆琳/01Connect_to_VideoSource.html"/>
-   <appContext helpID="_02" path="骆琳/02VideoAndSoundplay_ConnectionViaHDMI.html"/>
+   <appContext helpID="connecting_via_vga"
+               path="骆琳/06%20connecting_via_vga(1)(1).html"/>
+   <appContext helpID="_01_" path="骆琳/01VideoAndSoundplay_ConnectionViaHDMI.html"/>
    <appContext helpID="_" path="骆琳/03VideoAndSoundplay_ConnectionViaUSB.html"/>
    <appContext helpID="_" path="骆琳/04Connect_to_iPadiPhone.html"/>
    <appContext helpID="_05_USB_" path="骆琳/05Coonect_to_USBAppliance.html"/>
